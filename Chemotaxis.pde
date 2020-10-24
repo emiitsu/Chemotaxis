@@ -52,7 +52,7 @@ void setup(){
 }
 
 void draw(){
-  background(150);
+  background(75, 80, 30);
   for (int i = 0; i < pop.length; i ++) {
     pop[i].move();
     pop[i].show();
