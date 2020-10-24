@@ -25,7 +25,7 @@ class Bacteria{
   }
   
   void show(){
-    if(dist(mouseX, mouseY, myX, myY) < 10)
+    if(dist(mouseX, mouseY, myX, myY) < 20)
     {
       popped = true;
     }
